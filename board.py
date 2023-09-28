@@ -17,3 +17,6 @@ class Board(Turtle):
     def down(self):
         down_y = self.ycor() - 20
         self.goto(self.xcor(), down_y)
+
+    def increase_score(self):
+        self.score_count += 1
